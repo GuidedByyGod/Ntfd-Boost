@@ -39,9 +39,6 @@ O Ntfd Boost reúne ferramentas de manutenção e desempenho em uma única janel
 | Ajustes | 74 opções com backup e reversão |
 | Serviços | Catálogo com 267 serviços e proteções |
 | Downloads | 23 aplicativos via winget ou link oficial |
-| Login/licença externa | Removidos |
-| Coleta de dados | Removida |
-| Auto-update | Removido; atualização manual |
 | Licença | Proprietária — todos os direitos reservados |
 
 ---
