@@ -2,10 +2,10 @@
 
 Arquivos gerados em 12/11/2026:
 
-- Instalador único: `NtfdBoost-Setup.exe` — 128.509.440 bytes
-  - SHA-256: `236befda5b70d125779b91e5b9de978f8e7d023d6f5df35ecb38fde9a23c2ad8`
-- Aplicativo interno: `NtfdBoost.exe` — 459.264 bytes
-  - SHA-256: `616bcf4bcef7b744847fc0b4349281b718021f06014369439b166afbd8050b2a`
+- Instalador único: `NtfdBoost-Setup.exe` — 128.513.536 bytes
+  - SHA-256: `81e6467b5b64b454383ddef04091834956e70b9f2b56a3393c961ce644effc23`
+- Aplicativo interno: `NtfdBoost.exe` — 461.312 bytes
+  - SHA-256: `dd7ae983506ffd971249b2e456bcdcd8c4997461c8a92b9143e8d347b7e04803`
 
 Os dois executáveis estão **sem assinatura Authenticode** no momento.
 

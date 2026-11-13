@@ -58,6 +58,12 @@ O Ntfd Boost reúne ferramentas de manutenção e desempenho em uma única janel
 - Serviços, inicialização, boot, UAC, rede, energia e Windows Update.
 - Aviso de reinício no cabeçalho quando uma opção exige reboot.
 
+### Debloat e desinstalação
+- Lista Windows Apps e programas Win32 no mesmo painel.
+- Análise individual antes de desinstalar, com quarentena e backup.
+- **Seleção em lote** de Windows Apps e do Edge: marque vários e remova de uma vez.
+- O Edge mantém o WebView2 e o perfil/favoritos; pacotes críticos continuam bloqueados.
+
 ### Perfis
 - **Basic**, **Medium**, **Complete** e **Ultimate** com log por etapa.
 - Perfis de memória RAM para 4, 6, 8, 12, 16 e 32 GB.
@@ -95,10 +101,17 @@ O Ntfd Boost reúne ferramentas de manutenção e desempenho em uma única janel
 ## Requisitos
 
 - Windows 10/11 x64.
-- .NET Framework 4.8.
-- WebView2 Runtime.
-- Node.js 20+ (ou o `runtime/NtfdBoostRuntime.exe` incluído no instalador).
+- .NET Framework 4.8 (verificado pelo instalador).
+- WebView2 Runtime (verificado pelo app).
 - Permissões de administrador para ajustes que alteram serviços, Registro ou energia.
+- Node.js 20+ apenas para rodar o painel fora do pacote; o instalador já inclui o runtime.
+
+### Dependências e instalação guiada
+
+- **.NET Framework 4.8:** o launcher verifica antes de extrair. Se faltar, pergunta se pode baixar e instalar pelo link oficial da Microsoft.
+- **WebView2 Runtime:** o app verifica ao abrir. Se faltar, oferece o Evergreen Bootstrapper oficial e instala silenciosamente.
+- **winget/App Installer:** opcional e usado somente na aba **Baixar apps**; o restante do app funciona sem ele.
+- Sem internet, o app abre normalmente; só não consegue baixar dependências, instaladores ou abrir os links de site.
 
 ---
 
